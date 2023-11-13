@@ -1,7 +1,11 @@
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import Mastery from "./pages/mastery";
+
 function App() {
+  const router = createBrowserRouter([{ path: "/", element: <Mastery /> }]);
   return (
     <>
-      <h1>Flyer's Resource Handling</h1>
+      <RouterProvider router={router} />
     </>
   );
 }
