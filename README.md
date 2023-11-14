@@ -38,3 +38,9 @@
 # Redux toolkit
 
 - created redux folder and created store file
+
+# Steps
+
+- config `Lato` font-family from the google fonts
+- colors update as per figma design
+- checked font family and color is working
