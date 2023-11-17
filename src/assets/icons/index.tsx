@@ -1,3 +1,5 @@
+import { IconsProps } from "./types";
+
 export const SearchIcon = ({ className = "fill-[#7700C7]" }) => {
   return (
     <svg
@@ -71,8 +73,30 @@ export const RightArrowIcon = ({ className = "fill-[#7700C7]" }) => {
     </svg>
   );
 };
+export const LeftArrowIcon = ({ className = "fill-[#7700C7]" }) => {
+  return (
+    <svg
+      className={className}
+      width="20"
+      height="20"
+      viewBox="0 0 20 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g id="Bottom arrow">
+        <g id="Group 1686554786">
+          <path
+            id="Vector"
+            d="M12.8874 4.36868C12.8149 4.29593 12.7287 4.2382 12.6337 4.19882C12.5388 4.15943 12.4371 4.13916 12.3343 4.13916C12.2316 4.13916 12.1298 4.15943 12.0349 4.19882C11.94 4.2382 11.8538 4.29593 11.7812 4.36868L6.58744 9.56243C6.5295 9.62025 6.48353 9.68893 6.45217 9.76454C6.42081 9.84015 6.40466 9.9212 6.40466 10.0031C6.40466 10.0849 6.42081 10.166 6.45217 10.2416C6.48353 10.3172 6.5295 10.3859 6.58744 10.4437L11.7812 15.6374C12.0874 15.9437 12.5812 15.9437 12.8874 15.6374C13.1937 15.3312 13.1937 14.8374 12.8874 14.5312L8.36244 9.99993L12.8937 5.46868C13.1937 5.16868 13.1937 4.66868 12.8874 4.36868Z"
+            // fill="#7700C7"
+          />
+        </g>
+      </g>
+    </svg>
+  );
+};
 
-export const AddIcon = ({ className = "fill-[#7700C7]" }) => {
+export const AddIcon = ({ className = "fill-[#7700C7]" }: IconsProps) => {
   return (
     <svg
       className={className}

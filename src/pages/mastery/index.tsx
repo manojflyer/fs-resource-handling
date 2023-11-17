@@ -1,4 +1,4 @@
-import { SearchIcon } from "../../assets/icons";
+import { SearchIcon } from "@/assets/icons";
 
 const Mastery = () => {
   return (

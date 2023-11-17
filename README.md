@@ -13,6 +13,8 @@
 - Install tailwind css
   - npm install -D tailwindcss postcss autoprefixer
   - npx tailwindcss init -p
+- Install classnames
+  - npm i classnames
 
 # Firebase Config
 
@@ -44,3 +46,10 @@
 - config `Lato` font-family from the google fonts
 - colors update as per figma design
 - checked font family and color is working
+- Icons svg downloaded from figma
+- implemented in the storybook
+- created reusable button component
+- updated `alias` in the vite.config and ts.config.json file
+- \*tried to create all the buttons in three types in storybook but not worked
+- installed classnames package it will be useful with the tailwind css
+- created all the three types of buttons `Primary`,`Secondary`,`Disabled`
