@@ -53,3 +53,5 @@
 - \*tried to create all the buttons in three types in storybook but not worked
 - installed classnames package it will be useful with the tailwind css
 - created all the three types of buttons `Primary`,`Secondary`,`Disabled`
+- created search and input field with error handling
+- updated box shadow in tailwind

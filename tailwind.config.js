@@ -20,6 +20,9 @@ export default {
         "primary-gradient":
           "linear-gradient(180deg, #A329CD -5%, #7700C7 100%)",
       },
+      boxShadow: {
+        "input-shadow": "0px 2px 6px 0px rgba(96, 96, 96, 0.10)",
+      },
       fontFamily: {
         Lato: ["Lato"],
       },

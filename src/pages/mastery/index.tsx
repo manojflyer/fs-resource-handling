@@ -1,9 +1,7 @@
-import { SearchIcon } from "@/assets/icons";
-
 const Mastery = () => {
   return (
-    <div className="text-xl font-Lato text-gray-textGray">
-      Mastery <SearchIcon className="fill-[white]" />
+    <div className="container mx-auto text-xl font-Lato text-gray-textGray ">
+      Mastery
     </div>
   );
 };

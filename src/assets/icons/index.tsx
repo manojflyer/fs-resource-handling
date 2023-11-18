@@ -1,11 +1,15 @@
 import { IconsProps } from "./types";
 
-export const SearchIcon = ({ className = "fill-[#7700C7]" }) => {
+export const SearchIcon = ({
+  className = "fill-[#7700C7]",
+  width,
+  height,
+}: IconsProps) => {
   return (
     <svg
       className={className}
-      width="28"
-      height="28"
+      width={width}
+      height={height}
       viewBox="0 0 28 28"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -114,19 +118,23 @@ export const AddIcon = ({ className = "fill-[#7700C7]" }: IconsProps) => {
   );
 };
 
-export const DropdownIcon = ({ className = "fill-[#7700C7]" }) => {
+export const DropdownIcon = ({
+  className = "fill-[#7700C7]",
+  width,
+  height,
+}: IconsProps) => {
   return (
     <svg
       className={className}
-      width="32"
-      height="32"
+      width={width}
+      height={height}
       viewBox="0 0 32 32"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M7.05737 12.3907C7.30741 12.1407 7.64649 12.0003 8.00004 12.0003C8.35359 12.0003 8.69267 12.1407 8.94271 12.3907L16 19.448L23.0574 12.3907C23.1804 12.2633 23.3275 12.1617 23.4902 12.0919C23.6528 12.022 23.8278 11.9852 24.0048 11.9837C24.1819 11.9821 24.3575 12.0159 24.5213 12.0829C24.6852 12.1499 24.834 12.2489 24.9592 12.3741C25.0844 12.4993 25.1834 12.6482 25.2505 12.8121C25.3175 12.9759 25.3512 13.1515 25.3497 13.3285C25.3482 13.5056 25.3114 13.6805 25.2415 13.8432C25.1716 14.0059 25.0701 14.153 24.9427 14.276L17.8854 21.3333C17.3853 21.8333 16.7071 22.1141 16 22.1141C15.2929 22.1141 14.6148 21.8333 14.1147 21.3333L7.05737 14.276C6.80741 14.026 6.66699 13.6869 6.66699 13.3333C6.66699 12.9798 6.80741 12.6407 7.05737 12.3907Z"
         // fill="#7700C7"
       />
