@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { JSX, ChangeEvent } from "react";
 
 export type InputType = {
@@ -11,6 +12,9 @@ export type InputType = {
   disabled?: boolean;
   mandatory?: boolean;
   error?: boolean;
+  onClick?: any;
+  selectedKey?: any;
+  isActive?: boolean;
   errorMessage?: string;
   leftIcon?: JSX.Element;
   rightIcon?: JSX.Element;

@@ -22,6 +22,7 @@ export default {
       },
       boxShadow: {
         "input-shadow": "0px 2px 6px 0px rgba(96, 96, 96, 0.10)",
+        "dropdown-shadow": "0px 2px 10px 0px rgba(96, 96, 96, 0.14)",
       },
       fontFamily: {
         Lato: ["Lato"],

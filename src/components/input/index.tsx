@@ -1,6 +1,5 @@
 import classNames from "classnames";
 import { InputType } from "./types";
-import { useState } from "react";
 
 const Input = ({
   label,
@@ -17,9 +16,10 @@ const Input = ({
   className,
   error,
   errorMessage,
+  onClick,
+  isActive,
+  selectedKey,
 }: InputType) => {
-  const [isActive, setIsActive] = useState(false);
-
   const inputClassName = classNames(
     "p-3 my-[10px] rounded-lg shadow-input-shadow flex items-center gap-2",
     { "border border-errorColor": error },
@@ -34,13 +34,13 @@ const Input = ({
           <span className="text-errorColor">{mandatory && "*"}</span>
         </label>
       )}
-      <div className={inputClassName} onClick={() => setIsActive(!isActive)}>
+      <div className={inputClassName} onClick={onClick}>
         {leftIcon && leftIcon}
         <input
           id={id}
           type={type}
           name={name}
-          value={value}
+          value={selectedKey || value}
           disabled={disabled}
           placeholder={placeholder}
           onChange={onChange}
